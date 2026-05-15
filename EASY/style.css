@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 55%;
+    background-color: rgb(252, 202, 4);
+    position: relative;
+}
+.left .logo{
+    width: 150px;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+.left h4{
+    letter-spacing: 7px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.left h1{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: 120px;
+}
+.left p{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.left .line{
+    height: 1px;
+    width: 50px;
+    border: 1px solid #111;
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+.left h3{
+    position: absolute;
+    top: 66%;
+    left: 13%;
+}
+.right{
+    height: 100%;
+    width: 45%;
+    background-color: burlywood;
+    position: relative;
+}
+.right i{
+    font-size: 40px;
+    position: absolute;
+    left: 90%;
+    top: 2%;
+}
+.right .dot{
+    height: 15px;
+    width: 15px;
+    background-color: #111;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 95%;
+}
+.right .dot-1{
+    height: 12px;
+    width: 12px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 49%;
+    left: 95%;
+}
+.right .dot-2{
+    height: 12px;
+    width: 12px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 53%;
+    left: 95%;
+}
+.right .dot-3{
+    height: 12px;
+    width: 12px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 57%;
+    left: 95%;
+}
+.right .dot-4{
+    height: 12px;
+    width: 12px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 95%;
+}
+main .image{
+    position: absolute;
+    height: 500px;
+    left: 43%;
+    top: 20%;
+    mix-blend-mode: multiply;
+}

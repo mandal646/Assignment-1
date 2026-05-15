@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.nav-1{
+    padding: 5px 50px 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-1 .menu{
+    height: 50px;
+    width: 50px;
+    border: 0.5px solid #eae8e8;
+    border-radius: 5px;
+    padding: 10px;
+}
+.nav-1 .menu i{
+    font-size: 30px;
+}
+.nav-1 .image img{
+    height: 100px;
+}
+.nav-1 .flash{
+    height: 50px;
+    width: 50px;
+    border: 0.5px solid #eae8e8;
+    border-radius: 5px;
+    padding: 10px;
+}
+.nav-1 .flash i{
+    font-size: 30px;
+}
+
+.nav-2{
+    padding: 5px 50px 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.nav-2 .search{
+    width: 350px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eae8e8;
+}
+.nav-2 .btn1{
+    width: 200px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eae8e8;
+
+}
+
+.nav-2 .btn2{
+    width: 50px;
+    font-size: 20px;
+     padding: 10px 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #eae8e8;
+}
+.container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.container .card{
+    height: 100%;
+    width: 300px;
+    background: #f1efef;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.container .card .image1{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+.container .card .image1 img{
+    height: 300px;
+    width: 100%;
+}
+.container .card .image2 img{
+    height: 300px;
+    width: 100%;
+}
+.container .card .image3 img{
+    height: 300px;
+    width: 100%;
+}
+.container .card .image4 img{
+    height: 300px;
+    width: 100%;
+}
+.container .card i{
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    font-size: 20px;
+}
+.container .card p{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-weight: 100;
+}
+.container .card .Emoji{
+    z-index: 100;
+    position: absolute;
+    font-size: 30px;
+    top: 10%;
+    left: 5%;
+}
+.container .card h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.container .card h4{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card .h4-1 span{
+    color: rgb(57, 198, 57);
+}
+.card .h4-2 span{
+    color: gray;
+}
+.card .h4-3 span{
+    color: rgb(255, 94, 0);
+}
+.card .h4-4 span{
+    color: rgb(60, 60, 216);
+}
+.card .arrow{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+}
+
+.boxes{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 100px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box i{
+    font-size: 40px;
+    color: blue;
+}
+.box h2{
+    font-size: 40px;
+}
+footer{
+    height: 45px;
+    width: 100%;
+    padding: 20px;
+}
+footer p{
+    font-weight: 100;
+    text-align: center;
+}
